@@ -1,0 +1,17 @@
+nav a{
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 100%;
+    display: flex;
+    color: rgb(70, 232, 250)
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(49, 125, 255);
+}
+
+nav a.active{
+    background-color: rgba(33, 99, 204, 0.687) ;
+    color: rgb(236, 253, 253);
+}
